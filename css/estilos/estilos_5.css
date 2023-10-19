@@ -1,0 +1,33 @@
+
+/*  Reseteo  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+* .navbar-custom {
+   background-color: #333; /* Color gris oscuro */
+}
+
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+    color: #ffffff; /* Color del texto en la barra de navegación */
+  }
+
+  /* Cambiar color de fondo a verde y texto a blanco en hover */
+.btn-outline-light:hover {
+    background-color: #28a745; /* Verde */
+    color: #fff; /* Blanco */
+}
+  /* Cambiar color de fondo a verde y texto a blanco en hover */
+  .btn-light:hover {
+    background-color: #28a745; /* Verde */
+    color: #fff; /* Blanco */
+}
+ 
+
+.btn-outline:hover {
+    background-color: #28a745; /* Verde */
+    color: #fff; /* Blanco */
+}

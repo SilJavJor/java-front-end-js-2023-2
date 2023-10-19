@@ -1,0 +1,59 @@
+/*  Inicializacion  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+/* .body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ } */
+
+/* .main {
+  width: 100%;
+}
+
+main section {
+  width: 100%;
+} */
+
+ /* Color de fondo de la barra de navegacion */
+ .btn-outline:hover {
+    background-color: #28a745;
+    color: #fff; 
+}
+
+/* Desactivo el subrayado */
+.txt-verde {
+  color: #28a745 !important;
+}
+
+.txt {
+  text-decoration: none;
+}
+
+/* Activo el subrayado y cambio el color */
+.txt-outline:hover {
+  color: #28a745 !important;
+  text-decoration: underline;
+  text-decoration-color: #28a745;
+}
+
+/* .container {
+  margin: 0;
+  padding: 0;
+} */
+
+.footer {
+  /* background-color: #f8f9fa;
+  color: #000;
+  padding: 20px 0; */
+  /* Ajusta el ancho del footer según tus necesidades */
+  width: 100vw;
+  /* Ajusta el margen izquierdo para compensar el padding del contenedor principal */
+  /* margin-left: calc(-1 * (15px)); */
+  /* Ajusta el margen derecho para compensar el padding del contenedor principal */
+  /* margin-right: calc(-1 * (15px)); */
+}

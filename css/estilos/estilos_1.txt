@@ -1,0 +1,29 @@
+.transparent-navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-brand img {
+    width: 30px; /* Ajusta el tamaño del icono según tus necesidades */
+    height: 30px;
+}
+
+.navbar-text {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.redes-sociales a img {
+    width: 30px; /* Ajusta el tamaño de los iconos de redes sociales según tus necesidades */
+    height: 30px;
+    margin-left: 10px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP - Integrador Front</title>
+
+    <!--  Local   -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!--  CDNs   -->
+    <!--
+        <link rel="stylesheet" href="./main.css">
+        <script src="./index.js" defer></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    -->
+</head>
+
+<body>
+    <!-- Contenedor Principal -->
+    <div class="container-fluid">
+        <!-- Encabezado -->
+        <header>
+            <!-- Barra de navegacion -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark bg-opacity-75">
+                <div class="container-fluid">
+                    <img src="icons/cac_64.png" alt="Icono Casa" class="mr-2">
+                    <a class="navbar-brand" href="#">Conf Bs As</a>
+                    
+                    <!-- Botón para colapsar la barra de navegación en dispositivos móviles -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <!-- Barra de navegacion colapsable -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <!-- Botones -->
+                        <div class="ml-auto">
+                            <button class="btn btn-outline text-white mx-1 pl-1 pr-1">Conferencia</button>
+                            <button class="btn btn-outline text-white mx-1 pl-1 pr-1">Oradores</button>
+                            <button class="btn btn-outline text-white mx-1 pl-1 pr-1">Lugar/Fehca</button>
+                            <button class="btn btn-outline text-white mx-1 pl-1 pr-1">Convertite</button>
+                            <button class="btn btn-outline text-white mx-1 pl-1 pr-1">Comprar</button>
+                            <button class="btn btn-outline text-white mx-1 pl-1 pr-1">Contactanos</button>                        </div>
+                        
+                        <!-- Redes sociales -->
+                        <div class="ml-auto">
+                            <a href="#" class="text-white mx-1"><img src="icons/instagram_16.png" alt="Instagram"></a>
+                            <a href="#" class="text-white mx-1"><img src="icons/twiter_16.png" alt="Twiter"></a>
+                            <a href="#" class="text-white mx-1"><img src="icons/whatsapp_16.png" alt="WhatsApp"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Principal -->
+        <main>
+            <!-- Principal -->
+            <section>
+    
+            </section>
+    
+            <!-- Principal -->
+            <section>
+    
+            </section>
+    
+            <!-- Principal -->
+            <section>
+    
+            </section>
+            <!-- Principal -->
+    
+            <section>
+    
+            </section>
+        </main>
+        
+        <!-- Pie -->
+        <footer>
+    
+        </footer>
+    </div>   
+    
+    <!--  Local   -->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!--  CDNs   -->
+    <!-- 
+    <script src=""></script>
+    <script src="./app.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

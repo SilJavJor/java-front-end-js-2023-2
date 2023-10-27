@@ -1,3 +1,5 @@
+/*  Estilos CSS  */
+
 /*  Inicializacion  */
 * {
     padding: 0;
@@ -5,24 +7,15 @@
     box-sizing: border-box;
  }
 
-/* .body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
- } */
-
-/* .main {
-  width: 100%;
+/* Color del fondo de los botones de la barra de navegacion */
+.btn-outline:hover {
+  background-color: #28a745;
+  color: #fff; 
 }
 
-main section {
-  width: 100%;
-} */
-
- /* Color de fondo de la barra de navegacion */
- .btn-outline:hover {
-    background-color: #28a745;
-    color: #fff; 
+.btn-forms {
+  background-color: #0f431b;
+  color: #fff; 
 }
 
 /* Desactivo el subrayado */
@@ -41,19 +34,35 @@ main section {
   text-decoration-color: #28a745;
 }
 
-/* .container {
-  margin: 0;
-  padding: 0;
-} */
-
+/* Ampliar al 100 */
 .footer {
-  /* background-color: #f8f9fa;
-  color: #000;
-  padding: 20px 0; */
-  /* Ajusta el ancho del footer según tus necesidades */
   width: 100vw;
-  /* Ajusta el margen izquierdo para compensar el padding del contenedor principal */
-  /* margin-left: calc(-1 * (15px)); */
-  /* Ajusta el margen derecho para compensar el padding del contenedor principal */
-  /* margin-right: calc(-1 * (15px)); */
+}
+
+/* Boton flotante (ir arriba) */
+.cmn-divfloat {
+  position: fixed !important;
+  bottom: 45px;
+  right: 15px;
+  display: none;
+}
+
+/* Boton flotante curvatura de las puntas */
+.cmn-btncircle {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+ /* si se redimensiona el text area */
+.txt-area {
+  resize: none;
+}
+
+ /* Tamaño de la fuente */
+.contacto-titulo {
+  font-size: 1.85rem;
 }

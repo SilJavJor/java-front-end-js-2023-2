@@ -201,7 +201,7 @@
       <main class="container-fluid mt-5">
 
         <!-- Conferencia -->
-        <section id="conferencia" class="container-fluid mt-5 pt-2">
+        <section id="conferencia" class="container-fluid mt-3 pt-4">
 
           
           <div id="carruselConferencia" class="carousel slide" data-bs-ride="carousel">
@@ -733,7 +733,7 @@
       
         </section>
           
-        <section id="conviertete" class="container-fluid pt-2">
+        <section id="conviertete" class="container-fluid pt-3">
 
           <div class="container">
           
@@ -816,11 +816,103 @@
 
         </section>
       
-        <section id="comprar" class="container-fluid pt-2">
-            <h2>Comprar</h2>
+        <section id="comprar" class="container-fluid pt-3">
+
+            <!-- <h2>Comprar</h2> -->
+            
+            <!-- Cards -->
+            <!-- <div class="container" style="padding-top: 8rem;"> -->
+            
+              <div class="row justify-content-md-center g-1">
+                <div class="col-3" style="width: 13rem;">
+                  <div class="card border border-primary p-1">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Estudiante</h5>
+                      <p class="card-text">Tienen un descuento</p>
+                      <p class="card-text fw-bold">80%</p>
+                      <h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">* presentar
+                        documentación</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3" style="width: 13rem;">
+                  <div class="card border border-success p-1">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Trainee</h5>
+                      <p class="card-text">Tienen un descuento</p>
+                      <p class="card-text fw-bold">50%</p>
+                      <h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">* presentar
+                        documentación</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3" style="width: 13rem;">
+                  <div class="card border border-warning p-1">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Junior</h5>
+                      <p class="card-text">Tienen un descuento</p>
+                      <p class="card-text fw-bold">15%</p>
+                      <h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">* presentar
+                        documentación</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- </div> -->
+            
+            <!-- Form -->
+            <div class="container w-50 pt-5">
+              <!-- Texto superior del formulario -->
+              <div class="text-center">
+                <p class="m-0"><sup>VENTA</sup>
+                <h2>VALOR DE TICKET $200</h2>
+                </p>
+              </div>
+            
+              <!-- Formulario -->
+              <form class="row g-1 gx-2 formulario" id="formulario">
+                <div class="col-md-6 mb-3">
+                  <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="cantidad" class="form-label">Cantidad</label>
+                  <input type="text" class="form-control" id="cantidad" placeholder="Cantidad">
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="cantidad" class="form-label">Categoría</label>
+                  <select id="categoria" class="form-select">
+                    <option value="">Sin categoria</option>
+                    <option value="estudiante">Estudiante</option>
+                    <option value="trainee">Trainee</option>
+                    <option value="junior">Junior</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <p class="alert alert-primary" id="totalAPagar">Total a Pagar: $</p>
+                </div>
+            
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn text-white fs-6 btnBorrar" style="background-color: #96c93e;" type=" button"
+                    id="borrar">Borrar</button>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn text-white fs-6 btnResumen" style="background-color: #96c93e;" type=" button"
+                    id="resumen">Resumen</button>
+                </div>
+              </form>
+            </div>
+
+
         </section>
             
-        <section id="contacto" class="container-fluid pt-2">
+        <section id="contacto" class="container-fluid pt-3">
 
           <div class="container">
           
@@ -867,7 +959,7 @@
                   </div>                    
 
                   <div class="col-md-12">
-                    <label class="form-label txt-verde text-opacity-85">* Indica que los campos son obligatorios</label>
+                    <label class="form-label txt-verde text-opacity-85">* Indica que el campo esobligatorio...</label>
                   </div>
 
                   <div class="row mt-auto">
@@ -891,7 +983,7 @@
       </main>
 
       <!-- Pie -->
-      <footer class="container-fluid">
+      <footer class="container-fluid pt-4">
       
         <div class="container-fluid position-absolute bg-dark bg-opacity-70">
 

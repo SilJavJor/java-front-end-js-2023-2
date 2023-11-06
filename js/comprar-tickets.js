@@ -41,5 +41,4 @@ function calcularPago() {
 btnResumen.addEventListener('click', (e) => {
     e.preventDefault();
     calcularPago();
-
 });
